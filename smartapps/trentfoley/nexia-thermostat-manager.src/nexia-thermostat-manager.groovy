@@ -36,7 +36,7 @@ preferences {
 
 def getChildNamespace() { "trentfoley" }
 def getChildName() { "Nexia Thermostat" }
-def getServerUrl() { "https://www.mynexia.com" }
+def getServerUrl() { "https://www.mynexia.com/" }
 
 private debugEvent(message, displayEvent = false) {
     def results = [
